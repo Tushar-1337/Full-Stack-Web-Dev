@@ -98,3 +98,56 @@
     font-weight: 700;
     margin-left: 3px;
 }
+
+.panel{
+    width: 100%;
+    display: flex;
+    gap: 3px;
+    background-color: #0f1111ea;
+}
+.panel a{
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    border: 1px solid transparent;
+}
+.panel a:hover{
+    border: 1px solid white;
+}
+
+.hero{
+    height: 600px;
+    background-image:
+        linear-gradient(to bottom,
+        rgba(255,255,255,0) 70%,
+        rgba(234,237,237,1) 100%),
+        url("amazon images/hero-section.jpg");
+
+    background-size: cover;
+    background-position: center;
+    border: none;
+}
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    
+    position: relative;
+    margin-top: -250px;
+}
+.box{
+    width: 23%;
+    height: 420px;
+    background-color: white;
+    padding: 20px;
+}
+.box-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.items image{
+    height: 120px;
+    object-fit: cover;
+}

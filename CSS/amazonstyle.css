@@ -69,3 +69,32 @@
     border: none;
     font-weight: 700;
 }
+
+.return,
+.sign-in{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-first-return,
+.nav-first{
+    font-size: 12px;
+}
+.nav-second-return,
+.nav-second{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.cart{
+    display: flex;
+    align-items: flex-end;
+}
+.cart i{
+    font-size: 50px;
+}
+.cart span{
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 3px;
+}

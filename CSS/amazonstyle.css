@@ -3,6 +3,9 @@
     margin: 0%;
     box-sizing: border-box;
 }
+.body{
+    background-color: #e3e6e6;
+}
 
 .navbar{
     height: 60px;
@@ -13,6 +16,9 @@
     align-items: center;
     justify-content: space-evenly;
 
+}
+.border:hover{
+    border: 1px solid #cccccc;
 }
 
 .logo{
@@ -132,15 +138,15 @@
 .shop-section{
     display: flex;
     justify-content: space-evenly;
-    
     position: relative;
     margin-top: -250px;
 }
 .box{
     width: 23%;
     height: 420px;
-    background-color: white;
+    background-color: #e3e6e6;
     padding: 20px;
+    margin: 0 0 20px 0;
 }
 .box-image{
     display: grid;
@@ -152,4 +158,70 @@
     height: 120px;
     width: 100%;
     object-fit: cover;
+}
+
+.back-to-top{
+    height: 50px;
+    background-color: #37345a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.back-to-top a{
+    text-decoration: none;
+    color: #cccccc;
+}
+
+.about-us{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #222339;
+}
+
+.about-us a{
+    text-decoration: none;
+    color: white;
+}
+.about-us a:first-child{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.box2{
+    width: 25%;
+     display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    margin: 30px 25px 40px 25px;
+}
+
+.footer-links{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.footer-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    gap: 3px;
+}
+.copy-right{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+   height: 75px;
+   background-color: #1a1b2c;
+   color: white;
+   font-size: 12px;
+}
+.copy-right p{
+    text-align: center;
+}
+
+.about-us a:hover,
+.footer-links a:hover{
+    text-decoration: underline;
 }
